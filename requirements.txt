@@ -1,0 +1,24 @@
+# Zusätzliche Annahmen:
+# - Das Projekt nutzt PySpark-Notebooks lokal oder auf einem Cluster.
+# - Jupyter/JupyterLab wird zum Ausführen der Notebooks verwendet.
+# - findspark hilft beim lokalen Starten von Spark-Sessions (optional).
+
+# Core Spark
+pyspark>=3.3.0,<4.0.0
+
+# Jupyter
+jupyterlab>=3.0
+notebook>=6.5
+
+# Data Processing
+pandas>=1.5
+numpy>=1.24
+pyarrow>=11.0
+
+# Utilities
+findspark>=2.0.1
+
+# Optional: für Visualisierungen
+matplotlib>=3.7
+seaborn>=0.12
+
