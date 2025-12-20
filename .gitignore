@@ -1,0 +1,73 @@
+# Byte-compiled / cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+env/
+.Python
+
+# pip / build artifacts
+pip-wheel-metadata/
+*.egg-info/
+.eggs/
+build/
+dist/
+
+# IDEs and editors
+.idea/
+*.iml
+.vscode/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Pytest
+.pytest_cache/
+
+# Mypy
+.mypy_cache/
+
+# Coverage reports
+.coverage
+coverage.xml
+htmlcov/
+
+# Logs
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Environment variables
+.env
+.env.*
+
+# Local settings
+local_settings.py
+
+# Spark / Hadoop / Parquet temporary files and folders
+spark-warehouse/
+.spark-staging/
+*_temporary/
+*.parquet
+
+# Data folders often kept out of VCS
+
+/notebooks/data/raw/
+/notebooks/data/processed/
+
+
+# Distribution
+*.egg
+
+# Other
+.cache/
+
+# Keep track: if you want to commit notebooks, remove the notebooks line above.
+# Adjust data/ paths above if some data should be versioned in your repo.
+
