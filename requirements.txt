@@ -5,15 +5,16 @@ pyspark>=3.3.0,<4.0.0
 jupyterlab>=3.0
 notebook>=6.5
 
-# Data Processing
+# Data Processing & Analytics
 pandas>=1.5
 numpy>=1.24
-pyarrow>=11.0
+pyarrow>=11.0        # Für Parquet-Unterstützung (Performance-kritisch!)
+
+# Visualisierungen
+matplotlib>=3.7
 
 # Utilities
 findspark>=2.0.1
 
-Visualisierungen
-matplotlib>=3.7
-seaborn>=0.12
+
 
